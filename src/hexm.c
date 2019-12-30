@@ -100,4 +100,5 @@ Program *init_program(InstructionList *list)
 	program->list = list;
 	program->vlen = 0;
 	program->vindex = 0;
+	return program;
 }
