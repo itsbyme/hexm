@@ -1,17 +1,19 @@
 # HEXM
 ## Introduction
 
-`hexm` is an esoteric programming inspired by `machine code` and `brainfuck`.
+`hexm` is an esoteric programming language inspired by `machine code` and `brainfuck`.
 
 The `hexm` interpreter has only 5 instruction: 
 	* allocating space for a new 2-byte number
-	* changing the index of current use number
-	* addition
-	* input
-	* output
+	* changing the index of current use memory cell
+	* add number in current memory cell with passed number
+	* input number into current memory cell from stdin
+	* output number at current memory cell to stdout
 but the last 2 are not completed yet.
 
 code on `hexm` language should not contain empty lines.
+
+`hexm` executes only linear code (without flow statements)
 
 ## Building 
 
